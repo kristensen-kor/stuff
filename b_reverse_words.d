@@ -2,7 +2,7 @@ import std.stdio;
 import std.array;
 
 void main() {
-	auto t = File("B-large-practice.in", "r");
+	auto t = File("in.txt", "r");
 	auto to = File("out.txt", "w");
 	uint cnt;
 	t.readf(" %d ", &cnt);
